@@ -11,7 +11,7 @@ Braude College of Engineering
 
 # Overview
 
-This repository contains the complete materials for my B.Sc. Final Project in Software Engineering.
+This repository contains the complete materials for my B.Sc. Capstone Project in Software Engineering.
 
 The project presents an **Authorship Verification** system that determines whether two text samples were written by the same author.
 
@@ -42,7 +42,7 @@ FinalProject
 │   │
 │   ├── Authorship Verification Framework...
 │   ├── presentation Phase A - Ameer Masoud.pdf
-│   └── README.txt
+│   └── README.md
 │
 └── Phase B
     │
@@ -63,86 +63,105 @@ FinalProject
 
 # Repository Organization
 
-### Phase A
+## Phase A
 
-Contains the research and design stage of the project, including:
+Phase A contains the research and system design stage of the project, including:
 
 - Literature review
 - Research framework
-- System architecture
+- Proposed system architecture
 - Sequence diagrams
 - Pipeline diagrams
-- Project presentation
+- Flowcharts
+- Final presentation
+
+📄 **Please read `Phase A/README.md` before reviewing the Phase A files.**
+
+It explains the objectives of the research phase, the repository contents, and the proposed architecture.
 
 ---
 
-### Phase B
+## Phase B
 
-Contains the complete implementation of the project, including:
+Phase B contains the complete implementation and evaluation of the proposed framework, including:
 
 - Source code
-- Final notebooks
-- Documentation
-- Evaluation results
-- Poster
+- Google Colab notebooks
+- Experimental results
+- Final project book
 - User Guide
 - Maintenance Guide
-- Project Book
+- Poster
+- Supporting documentation
+
+📄 **Please read `Phase B/README.md` before running the project.**
+
+It contains detailed information about:
+
+- Repository structure
+- Installation
+- Project architecture
+- Notebook workflow
+- Benchmark reproduction
+- Engineering decisions
+- Evaluation process
 
 ---
 
 # Important Notice
 
-The **PAN20 dataset** and the trained **model checkpoints** and the **Demonstration video** are **not included in this repository** because they exceed GitHub's storage limitations.
+The following resources are **not included** in this GitHub repository because they exceed GitHub's storage limitations:
 
-Instructions for downloading them are available in:
+- PAN20 Dataset
+- Trained Model Checkpoints
+- Project Demonstration Video
+
+All download links are available in:
 
 ```
 Phase B/data_set_link.txt
 ```
-
-The Google Drive folder includes:
-
-- PAN20 dataset
-- Trained checkpoints
-- Demonstration video
 
 ---
 
-# Running the Project
+# Before Running the Project
 
-To reproduce the project:
+To reproduce the project successfully:
 
-1. Navigate to **Phase B**.
-
-2. Download the required files using:
+1. Open
 
 ```
 Phase B/data_set_link.txt
 ```
 
+2. Download:
+
+- PAN20 dataset
+- Trained model checkpoints
+- Demonstration video
+
 3. Place the downloaded **data** and **checkpoints** folders inside your Google Drive as described in the documentation.
 
-4. Open:
-
-```
-Authorship_Verification_Final_Submission.ipynb
-```
-
-using Google Colab.
-
-5. Follow the execution instructions provided in:
+4. Read
 
 ```
 Phase B/README.md
 ```
 
+5. Open
+
+```
+Authorship_Verification_Final_Submission.ipynb
+```
+
+using Google Colab and follow the execution instructions.
+
 ---
 
 # Documentation
 
-| File | Description |
-|------|-------------|
+| Document | Description |
+|-----------|-------------|
 | Project_Book.docx | Final project report |
 | User_Guide.docx | User documentation |
 | Maintenance_Guide.docx | Maintenance documentation |
@@ -153,44 +172,67 @@ Phase B/README.md
 
 # Repository Contents
 
-✔ Research documentation
+This repository includes:
 
-✔ Software implementation
-
-✔ Evaluation results
-
-✔ Source code
-
-✔ Engineering documentation
-
-✔ User Guide
-
-✔ Maintenance Guide
-
-✔ Project poster
-
-✔ Final report
+- Complete research documentation
+- Full software implementation
+- Google Colab notebooks
+- Experimental results
+- Engineering documentation
+- User Guide
+- Maintenance Guide
+- Project poster
+- Final project report
 
 ---
 
 # External Resources
 
-The following resources are distributed separately because they exceed GitHub's file size limits:
+## PAN20 Dataset
 
-- PAN20 dataset
-- Trained model checkpoints
-- Demonstration video
+The project uses the PAN20 Authorship Verification benchmark.
 
-See:
+The required dataset files are available through the download instructions provided in:
 
 ```
 Phase B/data_set_link.txt
 ```
 
-for download links and setup instructions.
+---
+
+## Trained Model Checkpoints
+
+The trained checkpoints required to reproduce the published benchmark results are provided separately through Google Drive.
+
+Download instructions are available in:
+
+```
+Phase B/data_set_link.txt
+```
+
+---
+
+## Project Demonstration Video
+
+A complete demonstration video of the project is also provided through Google Drive.
+
+The video presents:
+
+- Repository overview
+- Project architecture
+- Notebook walkthrough
+- End-to-end system execution
+- Experimental results
+- Final conclusions
+
+The video link is available in:
+
+```
+Phase B/data_set_link.txt
+```
 
 ---
 
 # License
 
-This repository was created for academic purposes as part of a B.Sc. Capstone Project at Braude College of Engineering.
+This repository was created for academic purposes as part of a B.Sc. Capstone Project submitted to the Department of Software Engineering at Braude College of Engineering.
