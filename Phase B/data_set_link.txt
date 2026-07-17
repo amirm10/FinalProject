@@ -1,2 +1,5 @@
 https://huggingface.co/datasets/swan07/authorship-verification/tree/main
 PAN20 - 3 CSV files - pan20_train.csv, pan20_val.csv, pan20_test.csv
+
+Link for the google drive folder - the full data set and checkpoints is in this flder for download.
+https://drive.google.com/drive/folders/1SZu5v-sBNRJD8prQ28FNRjB09SEb-GiS?usp=drive_link
