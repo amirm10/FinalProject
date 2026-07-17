@@ -1,0 +1,2 @@
+https://huggingface.co/datasets/swan07/authorship-verification/tree/main
+PAN20 - 3 CSV files - pan20_train.csv, pan20_val.csv, pan20_test.csv
