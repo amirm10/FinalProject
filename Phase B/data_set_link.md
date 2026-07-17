@@ -34,7 +34,6 @@ The folder contains:
 
 - checkpoints/
   - best_model_final.pt
-  - checkpoint_epoch_*.pt
 
 These files must be downloaded before running the project.
 
